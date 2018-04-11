@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
 .nav-bar {
   background-color: #a8dadc;
   display: flex;
@@ -16,43 +21,16 @@ a {
   .link1-container {
     background-color: #457b9d;
     padding: 20px;
-  }}
-
-@media (max-width: 500px) {
-.link1-container {
-  background-color: #457b9d;
-  padding: 20px;
-  display: none;
-}}
-
-@media (min-width: 500px) {
+  }
   .link2-container {
     background-color: #457b9d;
     padding: 20px;
-  }}
-
-@media (max-width: 500px) {
-.link2-container {
-  background-color: #457b9d;
-  padding: 20px;
-  display: none;
-}}
-
-@media (min-width: 500px) {
+  }
   .link3-container {
     background-color: #457b9d;
     padding: 20px;
     margin-left: auto;
-  }}
-
-@media (max-width: 500px) {
-.link3-container {
-  background-color: #457b9d;
-  padding: 20px;
-  display: none;
-}}
-
-@media (min-width: 500px) {
+  }
   .dropbtn {
     display: flex;
     background-color: #a8dadc;
@@ -61,9 +39,25 @@ a {
     border: none;
     cursor: pointer;
     display: none;
-  }}
+  }
+}
 
 @media (max-width: 500px) {
+  .link1-container {
+    background-color: #457b9d;
+    padding: 20px;
+    display: none;
+  }
+  .link2-container {
+    background-color: #457b9d;
+    padding: 20px;
+    display: none;
+  }
+  .link3-container {
+    background-color: #457b9d;
+    padding: 20px;
+    display: none;
+  }
   .dropbtn {
     display: flex;
     background-color: #a8dadc;
@@ -71,7 +65,8 @@ a {
     font-size: 16px;
     border: none;
     cursor: pointer;
-}}
+  }
+}
 
 .dropbtn:hover, .dropbtn:focus {
   color: #457b9d;
